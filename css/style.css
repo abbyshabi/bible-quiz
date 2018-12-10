@@ -1,0 +1,57 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+    font-size: 30px;
+    align-content: center;
+  }
+  
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  h3{
+	text-align: center;
+}
+button{
+	align-self: center;
+}
+.box-4{
+	text-align: center;
+	align-items: center;
+
+}
+text-area{
+	padding-bottom: 25px;
+	padding-top: 20px;
+}
+body{
+	background-image: url(quiz.jpg);
+	background-filter: alpha;
+	background-size: 100%;
+}
+.container{
+    width: 80%;
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jumbotron{
+	margin-top: 35px;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+h1{
+    text-align: center;
+}
+ h4{
+    text-align:center;
+}

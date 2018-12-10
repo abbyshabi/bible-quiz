@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The bible Quiz</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="images/download.jpeg" rel="icon" type="image/16x16-icon"/>
+</head>
+<body>
+	 <div class=" jumbotron">
+	        <h1><strong> Welcome to The bible character quiz</strong></h1>
+	        <h4><em> how well do you know your bible characters.......</em></h4>
+       </div>
+    <div class="container">
+        <form id="quiz" name="quiz">
+                    <h3><strong><em>Please answer all questions</em></strong></h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <div id="ask">
+                        <section class="question" id="q1">
+                            
+                            <p><strong> 1. Who built the ark? </strong></p>
+                            <input type="radio" name="question1" value="a"> Abraham <br>
+                            <input type="radio" name="question1" value="b"> Mary <br>
+                            <input type="radio" name="question1" value="c"> Noah<br>
+                            <input type="radio" name="question1" value="d"> James<br><br>
+                        </section>
+                        <section class="question" id="q2">
+                            <p><strong> 2. I was born in a manger....</strong></p>
+
+                            <input type="radio" name="question2" value="a"> John <br>
+                            <input type="radio" name="question2" value="b"> Moses <br>
+                            <input type="radio" name="question2" value="c"> Samuel<br>
+                            <input type="radio" name="question2" value="d"> Jesus<br><br>
+                        </section>
+                        <section class="question" id="q3">
+                                <p><strong> 3. I was a judge and a prophetess in Israel? </strong></p>
+                                <input type="radio" name="question3" value="a"> Deborah <br>
+                                <input type="radio" name="question3" value="b"> Racheal <br>
+                                <input type="radio" name="question3" value="c"> Leah <br> 
+                                <input type="radio" name="question3" value="d"> Dinah <br>
+                        </section>
+                        
+                        
+                        <section class="question" id="q4">
+                            <p><strong> 4.He betrayed Jesus for silver</strong></p>
+                            <input type="radio" name="question4" id="q4" value="a">Mattew <br>
+                            <input type="radio" name="question4" id="q4" value="b"> Mark<br>
+                            <input type="radio" name="question4" id="q4" value="c"> Lucas <br>
+                            <input type="radio" name="question4" id="q4" value="d"> Judas <br>
+                        </section><br>
+                        <section class="question" id="q5">
+                                <p><strong> 5. He fought the battle of Jericho</strong></p>
+                                <input type="radio" name="question5" id="q4" value="a">Mattew <br>
+                                <input type="radio" name="question5" id="q4" value="b"> Issac<br>
+                                <input type="radio" name="question5" id="q4" value="c"> Rahab <br>
+                                <input type="radio" name="question5" id="q4" value="d"> Joshua <br>
+                        </section><br>
+                </div>
+            </div>
+                <div class="grid-item">
+                        <section class="question" id="q6">
+                        
+                                <p><strong> 6. Former tax collecter, apostle of Jesus and writer of Gospel</strong></p>
+                                <input type="radio" name="question6" value="a"> Philip <br>
+                                <input type="radio" name="question6" value="b"> Mattew <br>
+                                <input type="radio" name="question6" value="c"> Pharaoh<br>
+                                <input type="radio" name="question6" value="d"> Luke <br><br>
+                            </section>
+                            <section class="question" id="q7">
+                                <p><strong> 7. I helped the spies in Jericho...</strong></p>
+            
+                                <input type="radio" name="question7" value="a"> Elizabeth <br>
+                                <input type="radio" name="question7" value="b"> Rahab <br>
+                                <input type="radio" name="question7" value="c"> Rhoda <br>
+                                <input type="radio" name="question7" value="d"> Martha<br><br>
+                            </section>
+                            <section class="question" id="q8">
+                                    <p><strong> 8. His sons became the 12 tribes of Israel ?</strong></p>
+                                    <input type="radio" name="question8" value="a"> Jacob<br>
+                                    <input type="radio" name="question8" value="b"> Joseph <br>
+                                    <input type="radio" name="question8" value="c"> Reuben <br> 
+                                    <input type="radio" name="question8" value="d"> Simeon <br>
+                            </section>
+
+                            
+                        <section class="question" id="q9">
+                                <p><strong> 9.I was the sister of Judah</strong></p>
+                                <input type="radio" name="question9" id="q4" value="a"> Abigael <br>
+                                <input type="radio" name="question9" id="q4" value="b"> Dinah<br>
+                                <input type="radio" name="question9" id="q4" value="c"> Mary <br>
+                                <input type="radio" name="question9" id="q4" value="d"> Jael <br>
+                        </section><br>
+                        <section class="question" id="q10">
+                                <p><strong> 10. I was swallowed by a big fish </strong></p>
+                                <input type="radio" name="question10" id="q4" value="a"> Solomon <br>
+                                <input type="radio" name="question10" id="q4" value="b"> Issac<br>
+                                <input type="radio" name="question10" id="q4" value="c"> Jonah <br>
+                                <input type="radio" name="question10" id="q4" value="d"> Joshua <br>
+                        </section><br>
+                   </div>
+       		</div>
+         
+         <!--<input id="button" type="button" value="Submit" onclick="check()" >-->
+	        <div class="box-4">
+	        	 <button type="submit" id="bttn" value="Submit" onclick="computeQuiz()"><strong><em>Submit Quiz</em></strong></button><br><br>
+	          <div id="score">
+	          
+	                <p>
+	                    <strong>Your Score is : <textarea name="Answer" rows="1" cols="45" id="message" disabled=""></textarea>
+	                </strong></p>
+	            </div>
+	                <button type = "reset" id="bttn1" value="reset" onclick="reset()"><strong><em> Reset </em></strong></button>
+	        </div>
+        </form>
+      </div>
+	        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	        <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
