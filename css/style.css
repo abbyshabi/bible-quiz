@@ -4,8 +4,7 @@
     grid-gap: 10px;
     background-color: #2196F3;
     padding: 10px;
-  }
-  
+}
   .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px 0;
@@ -18,7 +17,8 @@
     grid-column-end: 3;
   }
   h3{
-	text-align: center;
+    text-align: center;
+    
 }
 button{
 	align-self: center;
@@ -33,7 +33,7 @@ text-area{
 	padding-top: 20px;
 }
 body{
-	background-image: url(quiz.jpg);
+	background-image: url(bible.jpg);
 	background-filter: alpha;
 	background-size: 100%;
 }
@@ -54,4 +54,11 @@ h1{
 }
  h4{
     text-align:center;
+}
+.jumbotron{
+    background-color: wheat;
+}
+button{
+    width: 10%;
+    height: 35px;
 }
